@@ -20,7 +20,7 @@ a{
     background: rgb(255, 255, 255);
 }
 ::-webkit-scrollbar-thumb{
-background-color: #ff0000;
+background-color: #e15656;
 border-radius:10px;
 }
 /* HEADER/ */
@@ -375,6 +375,7 @@ body {
     color: #000;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
   }
 
   .swiper {
@@ -400,6 +401,8 @@ body {
   .swiper-wrapper{
     display: flex;
     width: 100%;
+    overflow-x: scroll;
+    height: 800px;
   }
   .swiper mySwiper{
     width: 80%;
